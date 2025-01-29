@@ -11,10 +11,9 @@ function agregarAmigo()
    }  
    else{
     amigos.push(amigo);
-    console.log(amigos);
     limpiarCaja();
+    updateAmigos();
    }
-   updateAmigos();
 }
 
 function updateAmigos()
@@ -42,7 +41,6 @@ function sortearAmigo()
     listaAmigos.innerHTML='';
     amigos=[];
  }
-
 }
 
 function limpiarCaja()
